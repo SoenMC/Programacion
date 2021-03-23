@@ -17,8 +17,8 @@ elif b>a and b>c:
         print(a)
         print(c)
     else:
-        print(a)
         print(c)
+        print(a)
 elif c>a and c>b:
     print(c)
     if a>b:

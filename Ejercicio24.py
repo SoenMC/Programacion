@@ -7,5 +7,15 @@
 x=1
 cantidad=0
 n=int(input("Ingrese la cantidad de piezas a procesar: "))
-while n<=n:
-    print
+while x<=n:
+    longitud=float(input("Ingrese la longitud: "))
+    if longitud>=1.2 and longitud<=1.3:
+        cantidad=cantidad+1
+    x=x+1
+print("la cantidad de piezas aptas son")
+print(cantidad)    
+
+
+
+    
+
