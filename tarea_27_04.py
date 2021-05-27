@@ -9,6 +9,7 @@ salir
 
 usar funciones
 '''
+print("Ingrese los valores de la lista que desea ordenar")
 lista_enteros=[]
 def carga_datos(lista_enteros):
     for x in range(10):
